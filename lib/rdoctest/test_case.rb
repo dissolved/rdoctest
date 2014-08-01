@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 
 module Rdoctest
-  class TestCase < MiniTest::Unit::TestCase
+  class TestCase < Minitest::Test
     private
 
     define_method :assert_eval do |expected, result, filename, lineno|
