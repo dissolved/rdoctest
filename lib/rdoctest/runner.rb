@@ -26,7 +26,7 @@ module Rdoctest
   #   >> def ok
   #   >>   a
   #   >> end
-  #   => nil
+  #   => :ok
   #
   # Use ellipses for partial matches.
   #
